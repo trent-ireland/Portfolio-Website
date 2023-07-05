@@ -1,0 +1,39 @@
+body {
+    background-color:#8DAA9D ;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color:#FBF5F3;
+}
+nav{
+    font-size:1rem;
+    justify-content: space-around;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 10px;
+
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #0F0E0E;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  
+  
+  
