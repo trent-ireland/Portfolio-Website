@@ -47,6 +47,9 @@ nav ul li a:hover {
 /* Main Content Styles */
 #About Me {
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #About Me h2 {
@@ -55,11 +58,12 @@ nav ul li a:hover {
 
 #About Me p#btcStatement {
   margin-bottom: 20px;
+  flex: 1;
 }
 
 #About Me img {
   width: 200px;
-  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 h2 {
