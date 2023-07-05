@@ -1,39 +1,99 @@
+/* Global Styles */
 body {
-    background-color:#8DAA9D ;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color:#FBF5F3;
+  background-color: #8DAA9D;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #FBF5F3;
 }
-nav{
-    font-size:1rem;
-    justify-content: space-around;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    padding: 10px;
 
+/* Header Styles */
+header {
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  border-bottom: #FBF5F3 solid 0.1em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #0F0E0E;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Main Content Styles */
+#About Me {
+  padding: 20px;
+}
+
+#About Me h2 {
+  margin-bottom: 10px;
+}
+
+#About Me p#btcStatement {
+  margin-bottom: 20px;
+}
+
+#About Me img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #FBF5F3;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #FBF5F3;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    padding: 10px;
   }
-  
-  nav ul li a {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #0F0E0E;
-    font-weight: bold;
-  }
-  
-  nav ul li a:hover {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  
-  
-  
+}
